@@ -6,8 +6,8 @@ def make_vowel(word):
             if letter not in vowel:
                 vowel = vowel + letter.lower() + ', '
 
-    return vowel
+    return vowel[:-2] if len(vowel) != 0 else print('no matches')
 
-ans = make_vowel('Thabani') 
+ans = make_vowel('Umuzi') 
 
-print(ans[:-2]) if len(ans) != 0 else print('no matches')
+print(ans)
