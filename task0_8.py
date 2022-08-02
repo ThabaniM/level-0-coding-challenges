@@ -10,15 +10,13 @@ def make_time(number):
        time['minutes'] = number % 60
     else:
         time['minutes'] = number
-    
-    return time
 
-    
-ans = make_time(90)
+    hour_text = 'hour' if time['hours'] == 1 else 'hours'
+    minute_text = 'minute' if time['minutes'] == 1 else 'minutes'
 
+    return f'{time["hours"]} {hour_text}, {time["minutes"]} {minute_text}'
+          
+answer = make_time(90)
 
-hour_text = 'hour' if ans['hours'] == 1 else 'hours'
-minute_text = 'minute' if ans['minutes'] == 1 else 'minutes'
-
-print(f'{ans["hours"]} {hour_text}, {ans["minutes"]} {minute_text}')
+print(answer)
     
