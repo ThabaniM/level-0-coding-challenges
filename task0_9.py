@@ -10,4 +10,4 @@ def make_vowel(word):
 
 ans = make_vowel('Umuzi') 
 
-print(ans)
+print('Vowels:' , ans)
