@@ -5,7 +5,7 @@ def make_time(number):
       'minutes': 0
     }
     
-    if number > 60:
+    if number >= 60:
        time['hours'] = number//60
        time['minutes'] = number % 60
     else:
@@ -16,7 +16,7 @@ def make_time(number):
 
     return f'{time["hours"]} {hour_text}, {time["minutes"]} {minute_text}'
           
-answer = make_time(90)
+answer = make_time(60)
 
 print(answer)
     
