@@ -1,4 +1,4 @@
-def make_time(number):
+def number_to_time_converter(number):
     
     time = {
       'hours': 0,
@@ -16,7 +16,7 @@ def make_time(number):
 
     return f'{time["hours"]} {hour_text}, {time["minutes"]} {minute_text}'
           
-answer = make_time(60)
+answer = number_to_time_converter(60)
 
 print(answer)
     
