@@ -1,8 +1,9 @@
 def make_vowel(word):
     vowel = ''
+    lowered_word = word.lower()
+    print(lowered_word)
     for letter in word:
-        letter = letter.lower()
-        if letter == 'a' or letter == 'e' or letter == 'o' or letter == 'u' or letter == 'i':
+        if letter in ['a', 'e', 'i', 'o', 'u']:
             if letter not in vowel:
                 vowel = vowel + letter.lower() + ', '
 
