@@ -15,8 +15,8 @@ def number_to_time_converter(number):
     minute_text = 'minute' if time['minutes'] == 1 else 'minutes'
 
     return f'{time["hours"]} {hour_text}, {time["minutes"]} {minute_text}'
-          
-answer = number_to_time_converter(60)
 
-print(answer)
+if __name__ ==  "__main__":
+  answer = number_to_time_converter(60)
+  print(answer)
     

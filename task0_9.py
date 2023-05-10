@@ -9,6 +9,6 @@ def make_vowel(word):
 
     return vowel[:-2] if len(vowel) != 0 else print('no matches')
 
-ans = make_vowel('Umuzie') 
-
-print('Vowels:' , ans)
+if __name__ ==  "__main__":
+    ans = make_vowel('Umuzie') 
+    print('Vowels:' , ans)
