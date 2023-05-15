@@ -12,11 +12,7 @@ def number_to_time_converter(number):
 
     return f'{time["hours"]} {hour_text}, {time["minutes"]} {minute_text}'
 
-answer = number_to_time_converter(60)
 
-print(answer)
-
-if __name__ ==  "__main__":
-  answer = number_to_time_converter(60)
-  print(answer)
-    
+if __name__ == "__main__":
+    converted_time = number_to_time_converter(60)
+    print(converted_time)
