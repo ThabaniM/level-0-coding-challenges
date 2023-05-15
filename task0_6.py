@@ -5,7 +5,8 @@ def maximum(*numbers):
             max = number
 
     return max
-    
+
+
 ans = maximum(2, -3, 5, 4)
 
-print(f'The maximum is {ans}')
+print(f"The maximum is {ans}")
