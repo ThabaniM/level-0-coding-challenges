@@ -14,7 +14,6 @@ def common_characters(word1, word2):
 
     return final_char[:-2] if len(final_char) != 0 else print("no matches")
 
-
 ans = common_characters("house", "computers")
 print("Common letters:", ans)
 

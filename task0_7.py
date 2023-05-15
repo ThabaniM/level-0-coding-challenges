@@ -2,10 +2,8 @@ def to_celsius(farenheit):
     celsius = (farenheit - 32) * (5 / 9)
     return celsius
 
-
 def to_farenheit(celsius):
     return (celsius * (9 / 5)) + 32
-
 
 print(
     f"""100°F is equal to {to_celsius(100)}°C
