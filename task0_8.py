@@ -16,3 +16,9 @@ def number_to_time_converter(number):
 answer = number_to_time_converter(60)
 
 print(answer)
+
+
+if __name__ ==  "__main__":
+  answer = number_to_time_converter(60)
+  print(answer)
+    

@@ -17,3 +17,7 @@ def common_characters(word1, word2):
 
 ans = common_characters("house", "computers")
 print("Common letters:", ans)
+
+if __name__ ==  "__main__":
+    ans = common_characters('house', 'computers') 
+    print('Common letters:', ans)

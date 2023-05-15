@@ -10,3 +10,8 @@ def maximum(*numbers):
 ans = maximum(2, -3, 5, 4)
 
 print(f"The maximum is {ans}")
+
+    
+if __name__ ==  "__main__":
+    ans = maximum(2, -3, 5, 4)
+    print(f'The maximum is {ans}')
