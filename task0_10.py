@@ -13,9 +13,6 @@ def common_characters(word1, word2):
     return final_char[:-2] if len(final_char) != 0 else print("no matches")
 
 
-characters_in_common = common_characters("house", "computers")
-print("Common letters:", characters_in_common)
-
 if __name__ == "__main__":
     characters_in_common = common_characters("house", "computers")
     print("Common letters:", characters_in_common)
