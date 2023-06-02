@@ -12,9 +12,9 @@ def common_characters(word1, word2):
     
     if len(final_char) != 0:
         return final_char[:-2]
-    else: return 'No matches'
+    else: return 'There were no common characters found'
 
 
 if __name__ == "__main__":
-    characters_in_common = common_characters("house", "computers")
+    characters_in_common = common_characters("zzzz", "computers")
     print("Common letters:", characters_in_common)
