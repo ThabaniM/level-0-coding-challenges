@@ -12,7 +12,8 @@ def common_characters(word1, word2):
     
     if len(final_char) != 0:
         return final_char[:-2]
-    else: return 'There were no common characters found'
+    
+    return 'There were no common characters found'
 
 
 if __name__ == "__main__":
