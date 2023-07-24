@@ -1,10 +1,6 @@
 def the_maximum(*numbers):
-    maximum_number = 0
-    for number in numbers:
-        if not maximum_number or number > maximum_number:
-            maximum_number = number
 
-    return maximum_number
+    return max(numbers)
 
 
 if __name__ == "__main__":
